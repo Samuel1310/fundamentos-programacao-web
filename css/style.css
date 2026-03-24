@@ -1,0 +1,158 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+/* BODY - estilo geral da página */
+
+body{
+font-family:'Segoe UI',sans-serif;
+background:#f5f7fa;
+color:#333;
+line-height:1.6;
+}
+
+/* HEADER - parte de cima do site */
+
+body > header{
+background:#0f172a;
+color:white;
+padding:25px;
+text-align:center;
+box-shadow:0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* MENU - navegação principal */
+
+nav ul{
+display:flex;
+justify-content:center;
+gap:30px;
+list-style:none;
+margin-top:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+/* CONTAINER - centraliza e dá espaçamento no conteúdo */
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
+}
+
+/* TITULOS - estilo dos h2 */
+
+h2{
+margin-bottom:20px;
+color:#0f172a;
+}
+
+/* FOTO - imagem de perfil */
+
+.foto{
+width:180px;
+border-radius:100%;
+margin-bottom:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* CARDS - caixinhas de conteúdo */
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+margin-bottom:25px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+/* GRID - organiza os itens tipo portfólio/habilidades */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+/* FORMULARIO - organização do form */
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+/* CAMPOS DO FORM - cada campo separado */
+
+form div{
+display:flex;
+flex-direction:column;
+}
+
+label{
+font-weight:600;
+margin-bottom:5px;
+}
+
+/* INPUTS - campos de texto */
+
+input,
+textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:14px;
+font-family:inherit;
+}
+
+/* TEXTAREA - caixa de mensagem */
+
+textarea{
+min-height:120px;
+resize:vertical;
+}
+
+/* BOTÃO - botão do form */
+
+button{
+background:#0ea5e9;
+color:white;
+border:none;
+padding:12px;
+border-radius:5px;
+cursor:pointer;
+font-weight:bold;
+transition:0.3s;
+}
+
+button:hover{
+background:#0284c7;
+}
+
+/* FOOTER - rodapé do site */
+
+footer{
+text-align:center;
+padding:20px;
+margin-top:40px;
+background:#0f172a;
+color:white;
+}
